@@ -18,7 +18,9 @@ Ensure you have the following installed:
 - Pip packages from requirements.txt
 
 ## Installation
-First, clone the repository. No need to worry about dependencies—just run the script, and it will take care of installing everything you need.
+First, clone the repository.
+No need to worry about dependencies—just run the script,
+and it will take care of installing everything you need.
 
 ## Usage
 ### Step 1: Configure AWS Credentials
