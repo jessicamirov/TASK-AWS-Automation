@@ -53,20 +53,6 @@ To terminate all resources, select yes when prompted at the end of the execution
 sh
 terraform destroy
 
-
-## Project Structure
-
-├── main.py                 # Main execution script
-├── user_input.py           # Handles user input
-├── terraform_generator.py  # Generates Terraform files
-├── terraform_runner.py     # Executes Terraform commands
-├── aws_validator.py        # Validates AWS resources
-├── terraform_cleanup.py    # Handles infrastructure cleanup
-├── requirements.txt        # Required Python packages
-├── aws_validation.json     # Stores AWS validation results
-└── README.md               # Project documentation
-
-
 ## Error Handling
 - Handles invalid AWS regions, Terraform execution failures, and AWS API errors.
 - Uses try-except blocks for better reliability.
